@@ -10,7 +10,7 @@
     </parent>
     <groupId>spring</groupId>
     <artifactId>basic</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
     <name>basic</name>
     <description>The spring boot and hello world</description>
 
@@ -25,9 +25,8 @@
         </dependency>
 
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <scope>runtime</scope>
+            <groupId>org.projectlombok</groupId>
+	   <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
         <dependency>
