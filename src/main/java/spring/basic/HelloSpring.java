@@ -15,6 +15,6 @@ public class HelloSpring {
 
     public HelloSpring(Long id, String greeting) {
         this.id = id;
-        this.greeting = greetings;
+        this.greeting = greeting;
     }
 }
