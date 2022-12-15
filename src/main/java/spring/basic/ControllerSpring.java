@@ -21,7 +21,7 @@ public class ControllerSpring {
     private final AtomicLong counter = new AtomicLong();
 
     @GetMapping("/hey")
-    public HelloSpring Greeting(@RequestParam(value = "name", defaultValue = "World!!") String name) {
+    public HelloSpring Greeting(@RequestParam(value = "name", defaultValue = "this is AWS code pipeline demo") String name) {
         return new HelloSpring(counter.incrementAndGet(), String.format(template, name));
     }
 }
